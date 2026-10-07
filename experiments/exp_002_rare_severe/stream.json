@@ -1,0 +1,206 @@
+[
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0955,
+    "impact": 0.0945,
+    "index": 0
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1007,
+    "impact": 0.1095,
+    "index": 1
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0946,
+    "impact": 0.0958,
+    "index": 2
+  },
+  {
+    "error_type": "MODERATE_TIMEOUT",
+    "severity": 0.4953,
+    "impact": 0.5587,
+    "index": 3
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1028,
+    "impact": 0.0905,
+    "index": 4
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.092,
+    "impact": 0.0956,
+    "index": 5
+  },
+  {
+    "error_type": "SEVERE_DATA_CORRUPTION",
+    "severity": 0.9511,
+    "impact": 0.9937,
+    "index": 6
+  },
+  {
+    "error_type": "MODERATE_TIMEOUT",
+    "severity": 0.5098,
+    "impact": 0.5528,
+    "index": 7
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1078,
+    "impact": 0.0917,
+    "index": 8
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0944,
+    "impact": 0.1001,
+    "index": 9
+  },
+  {
+    "error_type": "MODERATE_TIMEOUT",
+    "severity": 0.503,
+    "impact": 0.5522,
+    "index": 10
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0919,
+    "impact": 0.0919,
+    "index": 11
+  },
+  {
+    "error_type": "SEVERE_AUTH_BYPASS",
+    "severity": 0.9069,
+    "impact": 0.9555,
+    "index": 12
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1062,
+    "impact": 0.0901,
+    "index": 13
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0968,
+    "impact": 0.0931,
+    "index": 14
+  },
+  {
+    "error_type": "MODERATE_TIMEOUT",
+    "severity": 0.4934,
+    "impact": 0.5546,
+    "index": 15
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.103,
+    "impact": 0.1009,
+    "index": 16
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1072,
+    "impact": 0.1015,
+    "index": 17
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0944,
+    "impact": 0.1018,
+    "index": 18
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0984,
+    "impact": 0.0906,
+    "index": 19
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1069,
+    "impact": 0.1021,
+    "index": 20
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1027,
+    "impact": 0.0973,
+    "index": 21
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1091,
+    "impact": 0.0967,
+    "index": 22
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1061,
+    "impact": 0.1046,
+    "index": 23
+  },
+  {
+    "error_type": "SEVERE_AUTH_BYPASS",
+    "severity": 0.8946,
+    "impact": 0.9406,
+    "index": 24
+  },
+  {
+    "error_type": "MODERATE_TIMEOUT",
+    "severity": 0.4933,
+    "impact": 0.5476,
+    "index": 25
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1061,
+    "impact": 0.104,
+    "index": 26
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0916,
+    "impact": 0.0947,
+    "index": 27
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1066,
+    "impact": 0.1024,
+    "index": 28
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0905,
+    "impact": 0.094,
+    "index": 29
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1047,
+    "impact": 0.1035,
+    "index": 30
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.0976,
+    "impact": 0.101,
+    "index": 31
+  },
+  {
+    "error_type": "MODERATE_TIMEOUT",
+    "severity": 0.4974,
+    "impact": 0.5442,
+    "index": 32
+  },
+  {
+    "error_type": "TRIVIAL_LOG_NOISE",
+    "severity": 0.1041,
+    "impact": 0.0909,
+    "index": 33
+  }
+]

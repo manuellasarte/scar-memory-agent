@@ -1,0 +1,10 @@
+{
+  "scar_count_delta": -1,
+  "capability_count_delta": -1,
+  "avg_utility_delta": 0.1722,
+  "survival_rate_delta": 0.3333,
+  "false_scar_rate_delta": -0.3333,
+  "missed_scar_rate_delta": 0.0,
+  "avg_utility_rel_improvement": 0.298,
+  "survival_rate_rel_improvement": 0.4999
+}

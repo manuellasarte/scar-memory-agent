@@ -1,0 +1,31 @@
+{
+  "experiment_id": "exp_002",
+  "agent_a": {
+    "agent": "adaptive_pressure",
+    "scar_count": 3,
+    "capability_count": 3,
+    "avg_utility": 0.7889,
+    "survival_rate": 1.0,
+    "false_scar_rate": 0.0,
+    "missed_scar_rate": 0.0,
+    "detected_severe": [
+      "SEVERE_AUTH_BYPASS",
+      "SEVERE_DATA_CORRUPTION"
+    ],
+    "missed_severe": []
+  },
+  "agent_b": {
+    "agent": "repetition_rule",
+    "scar_count": 2,
+    "capability_count": 2,
+    "avg_utility": 0.3667,
+    "survival_rate": 0.5,
+    "false_scar_rate": 0.5,
+    "missed_scar_rate": 1.0,
+    "detected_severe": [],
+    "missed_severe": [
+      "SEVERE_AUTH_BYPASS",
+      "SEVERE_DATA_CORRUPTION"
+    ]
+  }
+}

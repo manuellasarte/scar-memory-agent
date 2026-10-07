@@ -1,0 +1,65 @@
+{
+  "n_seeds": 10,
+  "metrics": {
+    "scar_count": {
+      "A_mean": 2,
+      "A_std": 0.0,
+      "B_mean": 3,
+      "B_std": 0.0,
+      "delta_mean": -1,
+      "direction": 0,
+      "A_wins": null,
+      "n": 10
+    },
+    "capability_count": {
+      "A_mean": 2,
+      "A_std": 0.0,
+      "B_mean": 3,
+      "B_std": 0.0,
+      "delta_mean": -1,
+      "direction": 0,
+      "A_wins": null,
+      "n": 10
+    },
+    "avg_utility": {
+      "A_mean": 0.75,
+      "A_std": 0.0638,
+      "B_mean": 0.5667,
+      "B_std": 0.0419,
+      "delta_mean": 0.1834,
+      "direction": 1,
+      "A_wins": 10,
+      "n": 10
+    },
+    "survival_rate": {
+      "A_mean": 1.0,
+      "A_std": 0.0,
+      "B_mean": 0.7334,
+      "B_std": 0.1405,
+      "delta_mean": 0.2666,
+      "direction": 1,
+      "A_wins": 8,
+      "n": 10
+    },
+    "false_scar_rate": {
+      "A_mean": 0.0,
+      "A_std": 0.0,
+      "B_mean": 0.3333,
+      "B_std": 0.0,
+      "delta_mean": -0.3333,
+      "direction": -1,
+      "A_wins": 10,
+      "n": 10
+    },
+    "missed_scar_rate": {
+      "A_mean": 0.0,
+      "A_std": 0.0,
+      "B_mean": 0.0,
+      "B_std": 0.0,
+      "delta_mean": 0.0,
+      "direction": -1,
+      "A_wins": 0,
+      "n": 10
+    }
+  }
+}

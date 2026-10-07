@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv
+venv/
+.venv/
+env/
+
+# Base de datos generada
+data/*.db
+data/*.db-journal
+
+# Backups
+*.bak
+*.bak_*
+
+# LaTeX auxiliares
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+
+# Resultados regenerables (opcional: descomenta si quieres versionarlos)
+# results/exp_001/*.json
+# results/exp_002/*.json
+
+# Sistema
+.DS_Store
+Thumbs.db

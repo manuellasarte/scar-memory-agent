@@ -1,0 +1,21 @@
+{
+  "experiment_id": "exp_001",
+  "name": "pressure_vs_repetition",
+  "seed": 42,
+  "stream_length": 500,
+  "scar_threshold": 0.55,
+  "repetition_rule": {
+    "min_repetitions": 3,
+    "error_type_equality": true
+  },
+  "error_distribution": {
+    "TRIVIAL":  { "probability": 0.50, "severity_range": [0.05, 0.20], "impact_range": [0.05, 0.20] },
+    "MODERATE": { "probability": 0.30, "severity_range": [0.40, 0.60], "impact_range": [0.40, 0.60] },
+    "SEVERE":   { "probability": 0.20, "severity_range": [0.85, 1.00], "impact_range": [0.85, 1.00] }
+  },
+  "agents": ["adaptive_pressure", "repetition_rule"],
+  "outputs": {
+    "raw_csv": "results/exp_001/raw.csv",
+    "summary_json": "results/exp_001/summary.json"
+  }
+}

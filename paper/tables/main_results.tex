@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering
+\caption{%
+Main experimental results.
+Adaptive-pressure scar formation (A) is compared against a
+repetition-based baseline (B) across two complementary experiments.
+Experiment~001 measures general performance on a probabilistic stream
+of 500 events. Experiment~002 measures the safety property on a curated
+stream containing rare severe failures.
+Lower is better for \textit{False scar rate} and \textit{Missed severe rate}.
+}
+\label{tab:main_results}
+\small
+\begin{tabular}{lcccc}
+\hline
+ & \multicolumn{2}{c}{\textbf{Experiment 001}} & \multicolumn{2}{c}{\textbf{Experiment 002}} \\
+\cline{2-3} \cline{4-5}
+\textbf{Metric} & \textbf{A} & \textbf{B} & \textbf{A} & \textbf{B} \\
+\hline
+Scars formed            & 2      & 3      & 3      & 2      \\
+Capabilities born       & 2      & 3      & 3      & 2      \\
+Avg utility score       & 0.7500 & 0.5778 & 0.7889 & 0.3667 \\
+Survival rate           & 1.0000 & 0.6667 & 1.0000 & 0.5000 \\
+False scar rate         & 0.0000 & 0.3333 & 0.0000 & 0.5000 \\
+Missed severe rate      & 0.0000 & 0.0000 & 0.0000 & 1.0000 \\
+\hline
+\end{tabular}
+\end{table*}

@@ -1,0 +1,21 @@
+flowchart TD
+    E[Error Event] --> W[Wound]
+    W --> P[Adaptive Pressure<br/>freq × 0.4 + sev × 0.3 + impact × 0.3]
+
+    P -->|pressure ≥ threshold| S[Scar]
+    P -->|pressure &lt; threshold| D1[Discarded]
+
+    S --> C[Emergent Capability]
+
+    C --> U[Usage Simulation]
+    U --> SC[Utility Score]
+    SC --> ST{State Transition}
+
+    ST -->|utility ≥ 0.8 &amp; uses ≥ 20| CON[CONSOLIDADA]
+    ST -->|utility ≥ 0.5 &amp; uses ≥ 5| ACT[ACTIVA]
+    ST -->|otherwise| NAC[NACIENTE]
+
+    CON --> AU[Audit Trail]
+    ACT --> AU
+    NAC --> AU
+    AU --> DB[(SQLite<br/>reproducible record)]

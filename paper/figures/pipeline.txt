@@ -1,0 +1,38 @@
+====================================================================
+  Scar Memory Agent — Conceptual Pipeline
+====================================================================
+
+   [ Error Event ]
+          |
+          v
+   [    Wound    ]   (error_type, severity, impact, timestamp)
+          |
+          v
+   [ Adaptive Pressure ]
+          |
+          |   pressure = freq_norm*0.4 + severity*0.3 + impact*0.3
+          |
+   -------+-------
+   |             |
+   v             v
+[ Scar ]     [ Discarded ]
+   |
+   v
+[ Emergent Capability ]
+   |
+   v
+[ Usage Simulation ]  --->  utility_score = successes / uses
+   |
+   v
+[ State Transition ]
+   |
+   +--> NACIENTE
+   +--> ACTIVA          (uses >= 5,  utility >= 0.5)
+   +--> CONSOLIDADA     (uses >= 20, utility >= 0.8)
+   |
+   v
+[ Audit Trail ]
+   |
+   v
+[ SQLite: reproducible record of everything above ]
+====================================================================

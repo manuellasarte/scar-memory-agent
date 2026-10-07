@@ -1,0 +1,20 @@
+{
+  "experiment_id": "exp_002",
+  "name": "rare_severe",
+  "seed": 42,
+  "scar_threshold": 0.55,
+  "repetition_rule": {
+    "min_repetitions": 3
+  },
+  "curated_stream": [
+    { "error_type": "TRIVIAL_LOG_NOISE",     "severity": 0.10, "impact": 0.10, "count": 25 },
+    { "error_type": "MODERATE_TIMEOUT",      "severity": 0.50, "impact": 0.55, "count": 6  },
+    { "error_type": "SEVERE_DATA_CORRUPTION","severity": 0.95, "impact": 0.99, "count": 1  },
+    { "error_type": "SEVERE_AUTH_BYPASS",    "severity": 0.90, "impact": 0.95, "count": 2  }
+  ],
+  "agents": ["adaptive_pressure", "repetition_rule"],
+  "outputs": {
+    "raw_csv": "results/exp_002/raw.csv",
+    "summary_json": "results/exp_002/summary.json"
+  }
+}
