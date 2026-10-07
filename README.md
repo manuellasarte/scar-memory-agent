@@ -60,6 +60,10 @@ Two complementary experiments compare adaptive-pressure formation
 
 No external Python packages are required.
 
+## Author
+
+Manuel Lasarte Leon -- [@k4r4m310](https://github.com/manuellasarte)
+
 ## License
 
 MIT -- see `LICENSE`.
