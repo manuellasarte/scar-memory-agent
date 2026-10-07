@@ -18,7 +18,7 @@ The full paper is at `paper/paper.md`.
 
 ## Quick start
 
-    git clone <repo-url>
+    git clone https://github.com/manuellasarte/scar-memory-agent.git
     cd scar-memory-agent
     bash reproduce.sh
 
@@ -81,7 +81,7 @@ El paper completo esta en `paper/paper.md`.
 
 ## Inicio rapido
 
-    git clone <repo-url>
+    git clone https://github.com/manuellasarte/scar-memory-agent.git
     cd scar-memory-agent
     bash reproduce.sh
 
