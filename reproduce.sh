@@ -12,6 +12,14 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT"
 
+echo "==> [0/8] Ensuring required directories exist"
+mkdir -p data
+mkdir -p paper/figures
+mkdir -p results/exp_001
+mkdir -p results/exp_002
+mkdir -p results/exp_001_multiseed
+mkdir -p results/joint
+
 echo "==> [1/8] Cleaning previous outputs"
 rm -f data/scar_memory.db
 rm -f results/exp_001/*.json results/exp_001/*.csv results/exp_001/*.tex
